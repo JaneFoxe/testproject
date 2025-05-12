@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testproject"
+version = "0.1.0"
+description = ""
+authors = ["Nastya Foxe <Kukusiki2204@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+sqlalchemy = "^2.0.40"
+python-multipart = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
